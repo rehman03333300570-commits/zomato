@@ -1,0 +1,96 @@
+@font-face {
+  font-family: font1;
+  src: url(fonts/font1.ttf);
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  border: 1px;
+  padding: 5px;
+}
+
+
+
+body {
+  font-family: font1;
+}
+
+.work {
+  justify-content: center;
+  background-color: beige;
+  background-color: whitesmoke;
+  display: flex;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 295px;
+
+
+}
+
+.work h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.im {
+  border: 1px beige whitesmoke;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.work2 {
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 295px;
+
+}
+
+
+.work2 h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.work3 {
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 295px;
+
+
+}
+
+
+.work3 h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.im2 {
+  height: 320px;
+  width: 320px;
+  border-radius: 12px;
+  object-fit: cover;
+}
